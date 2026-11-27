@@ -75,6 +75,14 @@ if PHONG_CACH.exists():
         + PHONG_CACH.read_text(encoding="utf-8")
     )
 
+# Hồ sơ kênh (tên, mô tả, từ khoá, 250 ký tự tag cố định)
+HO_SO_KENH = Path(__file__).with_name("kenh-alibi-breakdown.md")
+if HO_SO_KENH.exists():
+    SYSTEM_PROMPT += (
+        "\n# HỒ SƠ KÊNH (tên kênh dùng trong lời dẫn, câu mở đầu cố định, mô tả và thẻ tag; "
+        "250 ký tự đầu của thẻ tag lấy đúng mục 7)\n" + HO_SO_KENH.read_text(encoding="utf-8")
+    )
+
 # Kho ngôn từ bí mật: agent đọc lại mỗi lần chạy, kho càng dày tiêu đề càng sát ngách
 KHO_NGON_TU = Path(__file__).with_name("kho-ngon-tu-bi-mat.md")
 if KHO_NGON_TU.exists():
