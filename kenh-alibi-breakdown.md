@@ -62,10 +62,10 @@ Tem tròn mực đỏ `#B3261E` trên nền giấy `#E9DFC7`, chữ **AB** (Oswa
 - Câu mở đầu cố định mỗi video: *"Every suspect has an alibi. Let's break it down."*
 - Kết video: chuyển cảnh ĐÓNG HỒ SƠ + tem đỏ "CASE CLOSED", màn hình kết thúc 20 giây (1 video đề xuất + nút đăng ký).
 
-## 7. 250 ký tự đầu của thẻ tag (dùng chung cho mọi video)
+## 7. Phần đầu cố định của thẻ tag (229 ký tự) (dùng chung cho mọi video)
 
 ```
-alibi breakdown, bodycam, police interrogation, homicide investigation, true crime, true crime documentary, interrogation analysis, police bodycam footage
+alibi breakdown, bodycam, police interrogation, homicide investigation, true crime, true crime documentary, interrogation analysis, police bodycam footage, detective, confession, cold case, 911 call, court case, crime documentary
 ```
 
 Phần còn lại (khoảng 250 ký tự) lấy từ khoá trong tiêu đề của từng video. Agent tự ghép phần này ở bước Gói SEO.
