@@ -40,12 +40,12 @@ Trình bày kịch bản dưới dạng bảng 4 cột rõ ràng để dễ quay
 """
 
 
-def ask_agent(conversation_history):
+def ask_agent(conversation_history, system_prompt=SYSTEM_PROMPT, max_tokens=16000):
     """Gửi hội thoại lên Claude, in chữ ra màn hình theo thời gian thực, trả về message cuối."""
     with client.beta.messages.stream(
         model=MODEL,
-        max_tokens=16000,
-        system=SYSTEM_PROMPT,
+        max_tokens=max_tokens,
+        system=system_prompt,
         messages=conversation_history,
         # Cache phần system prompt: từ lượt thứ 2 trở đi rẻ và nhanh hơn
         cache_control={"type": "ephemeral"},
@@ -60,8 +60,13 @@ def ask_agent(conversation_history):
         return stream.get_final_message()
 
 
-def run_script_agent():
-    print("🎬 AGENT VIẾT KỊCH BẢN TRIỆU VIEW ĐÃ SẴN SÀNG!")
+def run_script_agent(
+    system_prompt=SYSTEM_PROMPT,
+    max_tokens=16000,
+    title="🎬 AGENT VIẾT KỊCH BẢN TRIỆU VIEW ĐÃ SẴN SÀNG!",
+    input_label="👉 Nhập ý tưởng / kịch bản mẫu cần làm lại: ",
+):
+    print(title)
     print("Gõ 'thoat' để dừng chương trình.\n" + "-" * 50)
 
     # Lưu lịch sử hội thoại để Agent nhớ ngữ cảnh khi bạn muốn sửa kịch bản
@@ -69,7 +74,7 @@ def run_script_agent():
 
     while True:
         try:
-            user_input = input("\n👉 Nhập ý tưởng / kịch bản mẫu cần làm lại: ")
+            user_input = input("\n" + input_label)
         except (EOFError, KeyboardInterrupt):
             print("\nĐã tắt Agent.")
             break
@@ -84,7 +89,7 @@ def run_script_agent():
         print("\n⏳ Agent đang phân tích điểm sóng và viết kịch bản...\n")
 
         try:
-            response = ask_agent(conversation_history)
+            response = ask_agent(conversation_history, system_prompt, max_tokens)
         except anthropic.AuthenticationError:
             print("❌ Sai hoặc thiếu API key. Kiểm tra biến môi trường ANTHROPIC_API_KEY.")
             conversation_history.pop()
