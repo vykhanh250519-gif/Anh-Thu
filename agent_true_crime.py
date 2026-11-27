@@ -66,6 +66,15 @@ MAU_KICH_BAN = Path(__file__).with_name("mau-kich-ban-bodycam.md")
 if MAU_KICH_BAN.exists():
     SYSTEM_PROMPT += "\n# MẪU KỊCH BẢN EDIT VIDEO BODY CAM\n" + MAU_KICH_BAN.read_text(encoding="utf-8")
 
+# Phong cách riêng của kênh: ghi đè màu, chữ, chuyển cảnh, xuất file của mẫu
+PHONG_CACH = Path(__file__).with_name("phong-cach-kenh.md")
+if PHONG_CACH.exists():
+    SYSTEM_PROMPT += (
+        "\n# PHONG CÁCH KÊNH (ƯU TIÊN HƠN MẪU: khi viết lệnh dựng ở mục C và mục G, dùng màu, "
+        "bối cảnh, font, từ khoá chuyển cảnh và cách đặt tên file của phần này)\n"
+        + PHONG_CACH.read_text(encoding="utf-8")
+    )
+
 # Kho ngôn từ bí mật: agent đọc lại mỗi lần chạy, kho càng dày tiêu đề càng sát ngách
 KHO_NGON_TU = Path(__file__).with_name("kho-ngon-tu-bi-mat.md")
 if KHO_NGON_TU.exists():
