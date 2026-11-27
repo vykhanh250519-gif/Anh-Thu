@@ -7,6 +7,7 @@ Chạy:  python agent_true_crime.py   (cần ANTHROPIC_API_KEY như agent_kich_b
 """
 
 from agent_kich_ban import run_script_agent
+from title_rules import TITLE_THUMBNAIL_RULES
 
 SYSTEM_PROMPT = """
 # VAI TRÒ (ROLE)
@@ -51,6 +52,12 @@ Cuối kịch bản: danh sách nguồn footage cần tải (kèm nơi lấy: k�
 # RÀNG BUỘC
 - Không chào hỏi, không giải thích dài dòng ở đầu và cuối phản hồi.
 - Lời dẫn tối đa khoảng 150 từ/phút video.
+"""
+SYSTEM_PROMPT += TITLE_THUMBNAIL_RULES + """
+# ÁP DỤNG CHO NGÁCH TRUE CRIME
+- Tiêu đề và text thumbnail viết bằng tiếng Anh Mỹ; công thức và ngòi nổ ở trên áp dụng nguyên vẹn.
+- Ngòi nổ hợp ngách: lời nói dối, bí mật, gia đình, tiền bạc (bảo hiểm, thừa kế), sự phản bội, khoảnh khắc bị lật tẩy. Không dùng ngòi nổ gợi dục.
+- Khuôn mặt trên thumbnail: điều tra viên hoặc nghi phạm trong phòng thẩm vấn (ảnh từ footage công khai). Không dùng ảnh nạn nhân đã mất làm điểm nhấn, không có máu, vũ khí hay hiện trường.
 """
 
 if __name__ == "__main__":

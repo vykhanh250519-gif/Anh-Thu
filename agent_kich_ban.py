@@ -7,6 +7,8 @@ Chạy:     export ANTHROPIC_API_KEY="sk-ant-..."   (hoặc đăng nhập bằng
 
 import anthropic
 
+from title_rules import TITLE_THUMBNAIL_RULES
+
 MODEL = "claude-sonnet-5-5"
 
 # Không truyền api_key: SDK tự đọc ANTHROPIC_API_KEY (hoặc profile từ `ant auth login`).
@@ -38,6 +40,7 @@ Trình bày kịch bản dưới dạng bảng 4 cột rõ ràng để dễ quay
 - Tự động loại bỏ các từ ngữ nhạy cảm dễ bị bóp tương tác trên nền tảng.
 - Đi thẳng vào nội dung, không chào hỏi rườm rà hay giải thích dài dòng ở đầu và cuối phản hồi.
 """
+SYSTEM_PROMPT += TITLE_THUMBNAIL_RULES
 
 
 def ask_agent(conversation_history, system_prompt=SYSTEM_PROMPT, max_tokens=16000):
