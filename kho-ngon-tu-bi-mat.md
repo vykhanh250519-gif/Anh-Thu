@@ -69,6 +69,7 @@ Secrets in the Ashes · Malice · Temptation · Breaking Point · A Killing in M
 | When + [nghịch lý] | When The Suspect Is Smarter Than The Detective |
 | [Tính từ] + [Người] + Thinks + [hậu quả] | Spoiled Teen Thinks She Can Get Away With Murder |
 | [Nghi phạm] + Crumbles as Cops + [lật tẩy] | Pregnant Teen's Accused Killer Crumbles as Cops Rip His Story |
+| [Nhân vật + "lời tự nhận"] + Has No Idea + [điều người khác đã biết] | "Just Passing Through" Driver Has No Idea A UPS Driver Already Recognized His Repainted RV (mẫu kịch bản của kênh) |
 | "[Trích dẫn]": Expert Explains + [sai lầm] | "Not a Smooth Liar": Expert Explains … Fatal Interview Mistakes |
 
 > Lưu ý an toàn quảng cáo: các tiêu đề trên có những từ rất gắt ("Dead Body", "Body Parts", "Murder House"). Kênh mới nên giữ công thức nhưng thay bằng từ nhẹ hơn (ví dụ "Body Parts" → "Evidence", "Dead Mother" → "Missing Mother").
