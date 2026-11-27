@@ -14,6 +14,8 @@ Trước khi đặt tiêu đề, tự trả lời: Ngòi nổ là gì? Dành cho
 Dạng câu: câu hỏi, phủ định, khẳng định, cảm thán, bí mật.
 Tăng sức hút: con số ấn tượng (ưu tiên số đứng đầu), nửa kín nửa hở, từ khoá 2 tầng gây tò mò.
 VIẾT HOA từ ngòi nổ, nhưng phần viết hoa chiếm dưới 30% tiêu đề.
+Không viết hoa toàn bộ tiêu đề. Nên có số. Không dùng từ nhiều nghĩa dễ gây hiểu lầm.
+Từ khoá chính (từ khách hàng thật sự gõ tìm kiếm) đặt càng sớm càng tốt, trong khoảng 65 ký tự đầu; toàn bộ tiêu đề không quá 100 ký tự.
 Trung thực: nội dung video phải trả đúng lời hứa của tiêu đề. Không giật tít gây hiểu lầm.
 
 # TRÁNH VI PHẠM (tiêu đề, thumbnail, mô tả)

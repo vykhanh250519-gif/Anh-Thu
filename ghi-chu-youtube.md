@@ -97,3 +97,57 @@ Lọc ra 20% công việc quan trọng nhất để làm, còn lại tìm ngư�
 - **Audio:** tự đọc, thuê giọng đọc ở các group FB, thuê phần mềm AIClip.ai
 - **Hoạt cảnh:** ảnh Google, video mua ở Videoblocks, Storyblocks.com
 - **MC:** tự làm, thuê MC, thuê AIClip.ai
+
+---
+
+# Phần bổ sung (ghi chép lần 2)
+
+> Một vài chữ viết tay không đọc rõ được đánh dấu *(?)*.
+
+## Từ khoá lý tưởng
+- Đã được **xác nhận trên thị trường**: hành vi tìm kiếm của khách hàng (xác nhận bằng **gợi ý trên thanh tìm kiếm**).
+- Đo lưu lượng bằng công cụ: **Keyword Tool**, **Google Trends**.
+
+**3 dạng video sản xuất theo từ khoá lý tưởng**
+1. Video khám phá / tìm kiếm
+2. Video đề xuất
+3. Video giá trị và chuyển đổi
+
+→ Chạy 1 video kéo theo những video sau.
+
+## Quy tắc viết tiêu đề (bổ sung)
+- Không viết hoa toàn bộ tiêu đề.
+- Nên có số.
+- Không sử dụng từ nhiều nghĩa gây hiểu lầm.
+- Tiêu đề sử dụng từ khoá chính (trong 65 → 100 ký tự đầu).
+- Kênh phát triển có thể sử dụng *(?)* hoặc chữ.
+
+## Các bước đăng video
+1. Video *(?)*
+2. Chuẩn bị tiêu đề, thumbnail
+3. Mô tả video
+4. Thẻ tag
+5. Thẻ video (card)
+6. Màn hình kết thúc + tạo cộng đồng *(?)*
+7. *(không đọc được)*
+8. Chia sẻ
+
+- Để **không công khai (unlisted) 2–4 giờ** trước khi public.
+- Thẻ tag: mỗi video có **500 ký tự** từ khoá.
+  - Dùng **50% (250 ký tự)** cho từ khoá theo thứ tự: tên kênh → từ khoá chủ đề mình làm → từ khoá khách hàng tìm kiếm → từ khoá xác nhận triệu view → từ khoá liên quan → từ khoá ngách của chủ đề.
+  - **250 ký tự còn lại** là từ khoá có ở tiêu đề video, để YouTube hiểu bạn đang làm gì và video đó nói về gì.
+
+## Công việc của một chuyên gia YouTube
+1. **Quản lý kênh**
+   - Mục đích kênh, đối tượng kênh, hình mẫu kênh
+   - Tính cách kênh (làm 1 lần)
+   - Định hướng content, chủ đề content
+   - Lên lịch làm việc
+   - SEO, up video
+2. **Content:** viết content theo định hướng.
+3. **Video:** sản xuất video thể hiện content dưới dạng *(?)*.
+4. **Hình ảnh**
+   - Thiết kế frame ảnh thu nhỏ cho kênh (làm 1 lần)
+   - Thiết kế ảnh thu nhỏ cho từng video theo mẫu
+
+→ Tư duy làm và tìm ra thị trường.
