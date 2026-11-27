@@ -62,8 +62,47 @@ Theo nguyên tắc 20/80 trong sổ tay: bạn tự làm 20% quan trọng nhất
 - Video 1–3: chọn vụ có "lời nói dối bị lật tẩy" rõ nhất, vì đây là thứ khán giả ngách thích xem lại.
 - Sau mỗi 4 video, so sánh Analytics để giữ trụ nội dung nào chạy tốt nhất và nhân đôi trụ đó.
 
+## 8. Dữ liệu thật (cập nhật 27/11/2026)
+
+| Kênh | Subscribers | Ghi chú |
+|---|---|---|
+| Dr Insanity | 6,35M (YouTube) | vidIQ: 1,78 tỷ view, 144 video (~12 triệu view/video), 5 video / 28 ngày, độ dài TB gần đây 35:20 (OutlierKit) |
+| DOCS 187 | 20,6K (YouTube) | Kênh nhỏ, chưa lấy được danh sách video |
+| File 187 | 3,39K (YouTube) | Kênh nhỏ, chưa lấy được danh sách video |
+
+**Top video Dr Insanity (vidIQ + OutlierKit):**
+
+| Tiêu đề | View |
+|---|---|
+| Rich Mass Killer Realizes She's Been Caught 8 Years Later | 43,6M |
+| How Police Captured Colorado's Smartest Killer | 41,4M |
+| When Dumb Karens Try To Attack Cops | 36,0M |
+| When The Suspect Is Smarter Than The Detective | 33,8M |
+| Colorado Hitman Caught On Camera Moments Before Executing Her Target | 32,9M |
+| Man Horrified After Learning Girlfriend's Evil Secret | 29M |
+| Spoiled Teen Thinks She Can Get Away With Murder | 27M |
+| Police Find Dead Mother In Daughter's Garage | 27M |
+| Parents Discover Their Son Is A Wanted Killer | 26M |
+| 13 Year Old Realizes His Twin Brother Just Killed Someone | 22M |
+
+**Công thức tiêu đề rút ra:**
+
+| Công thức | Ví dụ | Ngòi nổ |
+|---|---|---|
+| [Người] + Realizes / Discovers / Learns + [bí mật] | Parents Discover Their Son Is A Wanted Killer | Gia đình + bí mật + khoảnh khắc nhận ra |
+| How Police Captured + [Nơi]'s + [So sánh nhất] + Killer | How Police Captured Colorado's Smartest Killer | Tò mò "bằng cách nào" |
+| When + [nghịch lý] | When The Suspect Is Smarter Than The Detective | Tranh cãi, đảo vai |
+| [Tính từ] + [Người] + Thinks / Realizes + [hậu quả] | Spoiled Teen Thinks She Can Get Away With Murder | Kiêu ngạo bị trừng phạt |
+
+- Từ khoá lặp lại: Realizes, Discovers, Secret, Caught, Smartest, Evil, Rich, Spoiled.
+- Quan hệ gia đình xuất hiện dày đặc: mother, daughter, parents, son, twin brother, girlfriend.
+- Con số: "13 Year Old", "8 Years Later", "15 Year Old".
+- Dr Insanity dùng cả từ rất gắt ("Dead Body", "Head Inside Garbage Bag"). Họ đã lớn nên chịu được rủi ro quảng cáo. Kênh mới nên giữ cấu trúc nhưng dùng từ nhẹ hơn.
+
 ## Nguồn
 
+- [vidIQ – Dr Insanity](https://vidiq.com/youtube-stats/channel/@drinsanitycrime/)
+- [OutlierKit – Dr Insanity](https://outlierkit.com/channel/drinsanitycrime)
 - [Dexerto – EWU bị tắt kiếm tiền](https://www.dexerto.com/youtube/true-crime-channel-ewu-slams-youtubes-extreme-censorship-after-losing-monetization-3423385/)
 - [10 Best True Crime YouTube Channels 2026 – Vidpros](https://vidpros.com/best-true-crime-youtube-channels/)
 - [35 Best True Crime YouTube Channels 2026 – Mystery Tribune](https://mysterytribune.com/35-best-true-crime-youtube-channels-in-2026/)
