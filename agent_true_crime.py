@@ -6,6 +6,8 @@ Ngách: dựng lại các vụ án mạng từ hồ sơ công khai của cảnh 
 Chạy:  python agent_true_crime.py   (cần ANTHROPIC_API_KEY như agent_kich_ban.py)
 """
 
+from pathlib import Path
+
 from agent_kich_ban import run_script_agent
 from title_rules import TITLE_THUMBNAIL_RULES
 
@@ -59,6 +61,14 @@ SYSTEM_PROMPT += TITLE_THUMBNAIL_RULES + """
 - Ngòi nổ hợp ngách: lời nói dối, bí mật, gia đình, tiền bạc (bảo hiểm, thừa kế), sự phản bội, khoảnh khắc bị lật tẩy. Không dùng ngòi nổ gợi dục.
 - Khuôn mặt trên thumbnail: điều tra viên hoặc nghi phạm trong phòng thẩm vấn (ảnh từ footage công khai). Không dùng ảnh nạn nhân đã mất làm điểm nhấn, không có máu, vũ khí hay hiện trường.
 """
+
+# Kho ngôn từ bí mật: agent đọc lại mỗi lần chạy, kho càng dày tiêu đề càng sát ngách
+KHO_NGON_TU = Path(__file__).with_name("kho-ngon-tu-bi-mat.md")
+if KHO_NGON_TU.exists():
+    SYSTEM_PROMPT += (
+        "\n# KHO NGÔN TỪ BÍ MẬT (tiêu đề thật của ngách – học cấu trúc và từ khoá, "
+        "KHÔNG chép nguyên văn)\n" + KHO_NGON_TU.read_text(encoding="utf-8")
+    )
 
 if __name__ == "__main__":
     run_script_agent(
